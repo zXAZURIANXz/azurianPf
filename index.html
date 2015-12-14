@@ -7,22 +7,17 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- parallax -->
+  <h1 class="nombre" >Adrian Maturano Vargas</h1>
+  <h2 class="sub">WEB DEVELOPER</h2>
+  <!-- foto -->
+  <div class="fotouser"></div>
+  <!-- parallax --> 
     <div class="parallax-container">
-        <div class="parallaxa">
-          <h1 class="nombre" >Adrian Maturano Vargas</h1>
-          
-          <h2 class="sub">WEB DEVELOPER</h2>
-            <div class="fotouser">
-              
-              
-            </div>
+        <div class="parallaxa">               
           <img src="img/4.jpg">
-           
-         </div>
+        </div>
     </div>
-    
-    <!-- Foto -->
+
   
     
     
@@ -33,12 +28,20 @@
           <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
         </div>
     </div>
-    <div class="parallax-container">
-        <div class="parallaxb"><img src="img/5.jpg">nada</div>
-    </div>
+    
     
     <!-- Contenido pricipal -->
     <div class="containerP">
+      
+      
+      <div id="parrafo1"> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit erat nec ligula semper, a porttitor tellus pulvinar. Nunc facilisis tempus mauris sodales convallis. Nulla aliquet lectus non porta bibendum. Aliquam rutrum placerat orci, ultrices efficitur neque. Duis at enim nunc. Vestibulum dolor nibh, ornare at laoreet ac, placerat ut lectus. Curabitur feugiat ac diam et placerat. Praesent a tincidunt velit. Quisque cursus cursus hendrerit. Donec finibus sit amet justo quis sagittis. Integer et risus porttitor libero facilisis scelerisque at non risus. Nunc et velit ipsum. Vestibulum efficitur ex sit amet mi pulvinar convallis. Maecenas congue felis eget nibh molestie, eget egestas nibh viverra. Etiam eu malesuada nisi.</p>
+      </div>
+      
+       <div id="parrafo2"> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit erat nec ligula semper, a porttitor tellus pulvinar. Nunc facilisis tempus mauris sodales convallis. Nulla aliquet lectus non porta bibendum. Aliquam rutrum placerat orci, ultrices efficitur neque. Duis at enim nunc. Vestibulum dolor nibh, ornare at laoreet ac, placerat ut lectus. Curabitur feugiat ac diam et placerat. Praesent a tincidunt velit. Quisque cursus cursus hendrerit. Donec finibus sit amet justo quis sagittis. Integer et risus porttitor libero facilisis scelerisque at non risus. Nunc et velit ipsum. Vestibulum efficitur ex sit amet mi pulvinar convallis. Maecenas congue felis eget nibh molestie, eget egestas nibh viverra. Etiam eu malesuada nisi.</p>
+      </div>
+     
       
     </div>
 		
@@ -46,5 +49,10 @@
 		
 	<script src="static/vendor/jquery/dist/jquery.min.js"></script>
 	<script src="static/vendor/Materialize/dist/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.parallaxa').parallax();
+    });
+  </script>
 </body>
 </html>
